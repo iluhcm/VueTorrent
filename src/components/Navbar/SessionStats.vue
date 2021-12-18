@@ -18,11 +18,11 @@
     </v-tooltip>
     <StorageCard
       class="mb-4 mt-4"
-      label="已下载"
+      :label="$t('torrent.dloaded')"
       color="download"
       :value="status.downloaded"
     />
-    <StorageCard label="已上传" color="upload" :value="status.uploaded" />
+    <StorageCard :label="$t('torrent.uploaded')" color="upload" :value="status.uploaded" />
   </div>
 </template>
 

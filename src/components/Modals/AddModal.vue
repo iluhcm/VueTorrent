@@ -110,7 +110,7 @@
               />
 
               <v-text-field
-                v-model="directory"
+                v-model="settings.save_path"
                 :disabled="autoTMM"
                 label="Download Directory"
                 :prepend-icon="mdiFolder"
@@ -188,7 +188,7 @@
       width:100%;
       height:100%;
       text-align:center;
-      background-color: rgb(0,0,0,.5)
+      background-color: rgba(0,0,0,.5)
       "
     >
       <div class="align white--text">
@@ -210,10 +210,10 @@ import { mapGetters } from 'vuex'
 import Modal from '@/mixins/Modal'
 import qbit from '@/services/qbit'
 import { mdiCloudUpload, mdiFolder, mdiTag, mdiPaperclip, mdiLink, mdiClose } from '@mdi/js'
-import { FullScreenModal } from '@/mixins'
+import { FullScreenModal, SettingsTab } from '@/mixins'
 export default {
   name: 'AddModal',
-  mixins: [Modal, FullScreenModal],
+  mixins: [Modal, FullScreenModal, SettingsTab],
   props: ['initialMagnet', 'openSuddenly'],
   data() {
     return {

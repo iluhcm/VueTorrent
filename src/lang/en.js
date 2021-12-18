@@ -22,6 +22,7 @@ const locale = {
     comments: 'comments',
     name: 'name',
     save_path: 'save_path',
+    tracker: 'tracker',
     added_on: 'added_on',
     dlspeed: 'dlspeed',
     dloaded: 'dloaded',

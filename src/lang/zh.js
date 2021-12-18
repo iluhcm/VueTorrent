@@ -19,6 +19,7 @@ const locale = {
     dloaded: '已下载',
     upspeed: '上传速度',
     uploaded: '已上传',
+    tracker: 'Tracker',
     eta: '剩余时间',
     num_leechs: '做种人数',
     num_seeds: '种子数',

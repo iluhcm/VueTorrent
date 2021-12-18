@@ -54,23 +54,24 @@ export default {
       reverse: true,
       options: [
         { value: 'added_on', name: 'Added On' },
-        { value: 'availability', name: 'Availability' },
+        { value: 'upspeed', name: 'Upload Speed' },
+        // { value: 'availability', name: 'Availability' },
         { value: 'save_path', name: 'Save Path' },
         { value: 'category', name: 'Category' },
-        { value: 'completed', name: 'Completed' },
-        { value: 'dlspeed', name: 'Download Speed' },
-        { value: 'downloaded', name: 'Downloaded' },
+        // { value: 'completed', name: 'Completed' },
+        // { value: 'dlspeed', name: 'Download Speed' },
+        // { value: 'downloaded', name: 'Downloaded' },
         { value: 'eta', name: 'ETA' },
         { value: 'name', name: 'Name' },
-        { value: 'num_leechs', name: 'Peers' },
-        { value: 'priority', name: 'Priority' },
-        { value: 'progress', name: 'Progress' },
-        { value: 'ratio', name: 'Ratio' },
+        // { value: 'num_leechs', name: 'Peers' },
+        // { value: 'priority', name: 'Priority' },
+        // { value: 'progress', name: 'Progress' },
+        // { value: 'ratio', name: 'Ratio' },
         { value: 'size', name: 'Size' },
-        { value: 'state', name: 'State' },
-        { value: 'time_active', name: 'Time Active' },
-        { value: 'uploaded', name: 'Uploaded' },
-        { value: 'upspeed', name: 'Upload Speed' }
+        // { value: 'state', name: 'State' },
+        { value: 'tracker', name: 'Tracker' }
+        // { value: 'time_active', name: 'Time Active' },
+        // { value: 'uploaded', name: 'Uploaded' }
       ]
     }
   },

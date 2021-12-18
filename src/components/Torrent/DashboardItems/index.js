@@ -15,6 +15,7 @@ import Uploaded from './Uploaded'
 import UploadedSession from './UploadedSession'
 import Availability from './Availability'
 import SavePath from './SavePath'
+import Tracker from './Tracker'
 
 export {
   Size,
@@ -33,5 +34,6 @@ export {
   UploadedSession,
   Downloaded,
   Availability,
-  SavePath
+  SavePath,
+  Tracker
 }

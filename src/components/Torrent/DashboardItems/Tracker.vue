@@ -1,16 +1,16 @@
 <template>
-  <v-flex xs6 sm2>
+  <v-flex xs12 sm3 md3>
     <div class="caption grey--text">
-      {{ $t('torrent.save_path') | titleCase }}
+      {{ $t('torrent.tracker') | titleCase }}
     </div>
     <div class="truncate mr-1">
-      {{ torrent.save_path }}
+      {{ torrent.tracker }}
     </div>
   </v-flex>
 </template>
 <script>
 export default {
-  name: 'SavePath',
+  name: 'Tracker',
   props: ['torrent']
 }
 </script>

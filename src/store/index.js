@@ -78,7 +78,8 @@ export default new Vuex.Store({
         { name: 'Tags', active: true },
         { name: 'AddedOn', active: true },
         { name: 'Availability', active: true },
-        { name: 'SavePath', active: true }
+        { name: 'SavePath', active: true },
+        { name: 'Tracker', active: true }
       ],
       doneTorrentProperties: [
         { name: 'Size', active: true },
@@ -96,7 +97,8 @@ export default new Vuex.Store({
         { name: 'Tags', active: true },
         { name: 'AddedOn', active: true },
         { name: 'Availability', active: true },
-        { name: 'SavePath', active: true }
+        { name: 'SavePath', active: true },
+        { name: 'Tracker', active: true }
       ]
     },
     categories: [],
