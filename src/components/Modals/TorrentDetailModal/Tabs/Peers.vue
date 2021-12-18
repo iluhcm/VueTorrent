@@ -97,7 +97,7 @@ export default {
     this.getTorrentPeers()
     this.refreshTimer = setInterval(function () {
       this.getTorrentPeers()
-    }.bind(this), 2000)
+    }.bind(this), 5000)
   },
   beforeDestroy() {
     clearTimeout(this.refreshTimer)

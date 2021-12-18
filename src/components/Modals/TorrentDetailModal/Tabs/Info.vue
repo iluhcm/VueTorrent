@@ -15,7 +15,7 @@
             {{ $t('torrent.directory') | titleCase }}
           </td>
           <td>
-            {{ torrent.savePath }}
+            {{ torrent.save_path }}
           </td>
         </tr>
         <tr style="margin-top: 10px !important">

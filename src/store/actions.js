@@ -6,7 +6,7 @@ export default {
   INIT_INTERVALS: async context => {
     context.state.intervals[0] = setInterval(() => {
       context.commit('updateMainData')
-    }, 2000)
+    }, 5000)
   },
   LOGIN: async (context, payload) => {
     const res = await qbit.login(payload)

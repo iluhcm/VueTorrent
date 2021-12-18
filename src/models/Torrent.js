@@ -16,7 +16,7 @@ export default class Torrent {
     this.hash = data.hash
     this.available_seeds = data.num_complete
     this.available_peers = data.num_incomplete
-    this.savePath = data.save_path
+    this.save_path = data.save_path
     this.progress = Math.round(data.progress * 10000) / 100
     this.ratio = Math.round(data.ratio * 100) / 100
     this.tags = data.tags.length > 0 ? data.tags.split(', ').map(t => t.trim()) : null

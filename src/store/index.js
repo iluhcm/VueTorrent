@@ -50,7 +50,7 @@ export default new Vuex.Store({
     modals: [],
     settings: {},
     webuiSettings: {
-      lang: 'en',
+      lang: 'zh',
       darkTheme: false,
       showFreeSpace: true,
       showSpeedGraph: true,
@@ -77,7 +77,8 @@ export default new Vuex.Store({
         { name: 'Category', active: true },
         { name: 'Tags', active: true },
         { name: 'AddedOn', active: true },
-        { name: 'Availability', active: true }
+        { name: 'Availability', active: true },
+        { name: 'SavePath', active: true }
       ],
       doneTorrentProperties: [
         { name: 'Size', active: true },
@@ -94,7 +95,8 @@ export default new Vuex.Store({
         { name: 'Category', active: true },
         { name: 'Tags', active: true },
         { name: 'AddedOn', active: true },
-        { name: 'Availability', active: true }
+        { name: 'Availability', active: true },
+        { name: 'SavePath', active: true }
       ]
     },
     categories: [],

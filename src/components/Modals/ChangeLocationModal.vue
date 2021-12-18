@@ -81,7 +81,7 @@ export default {
     }
   },
   created() {
-    this.newPath = this.torrent.savePath
+    this.newPath = this.torrent.save_path
   },
   methods: {
     setLocation() {

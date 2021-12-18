@@ -19,7 +19,26 @@ const locale = {
     downloaded: 'downloaded',
     uploaded: 'uploaded',
     created: 'created by',
-    comments: 'comments'
+    comments: 'comments',
+    name: 'name',
+    save_path: 'save_path',
+    added_on: 'added_on',
+    dlspeed: 'dlspeed',
+    dloaded: 'dloaded',
+    upspeed: 'upspeed',
+    Uploaded: 'Uploaded',
+    eta: 'eta',
+    num_leechs: 'Peers',
+    num_seeds: 'Seeds',
+    path: 'path',
+    state: 'state',
+    hash: 'hash',
+    ratio: 'ratio',
+    tags: 'tags',
+    category: 'category',
+    dl_limit: 'dl_limit',
+    up_limit: 'up_limit',
+    status: 'status'
   },
   /** Navbar */
   navbar: {
@@ -34,6 +53,7 @@ const locale = {
       searchNew: 'search new torrent'
     },
     sessionStats: {
+      name: 'Session Stats',
       tooltip: 'Since the last time qBittorrent was restarted'
     }
   },

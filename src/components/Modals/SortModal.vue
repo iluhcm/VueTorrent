@@ -55,6 +55,7 @@ export default {
       options: [
         { value: 'added_on', name: 'Added On' },
         { value: 'availability', name: 'Availability' },
+        { value: 'save_path', name: 'Save Path' },
         { value: 'category', name: 'Category' },
         { value: 'completed', name: 'Completed' },
         { value: 'dlspeed', name: 'Download Speed' },
